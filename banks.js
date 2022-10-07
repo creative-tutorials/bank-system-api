@@ -31,3 +31,8 @@ const findSlugByName = name => {
 
 // const objects = banks.find(obj => obj.id === 302);
 // console.log(objects);
+let result = banks.map((bank) => {
+    return bank.name;
+})
+
+console.log(result);
